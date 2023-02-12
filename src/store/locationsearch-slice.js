@@ -31,7 +31,7 @@ export const locationSearchActionFn=()=>{
         const location=getState().location.location
         const getLocation=async()=>{
             const locationSearch=axios.create({
-                baseURL:`https://serpapi.com/locations.json?q=${location}&limit=5`,
+                baseURL:`/api/locations.json?q=${location}&limit=5`,
                 headers:{
                     'Content-Type': 'application/json;charset=UTF-8',
                     'Access-Control-Allow-Origin': '*'
