@@ -18,7 +18,7 @@ export const createListingAction=(id)=>{
     return (async(dispatch)=>{
         const  fetchListingFn=async()=>{
             const fetchData=axios.create({
-                baseURL:`/api`,
+                baseURL:`https://serpapi.com/`,
                 headers:{
                     'Content-Type': 'application/json;charset=UTF-8',
                     'Access-Control-Allow-Origin': '*'

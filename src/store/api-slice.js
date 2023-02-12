@@ -73,7 +73,7 @@ export const createApiAction=()=>{
         const {activePage}=getState().location
         const  fetchDataFn=async()=>{
             const fetchData=axios.create({
-                baseURL:`/api`,
+                baseURL:`https://serpapi.com/`,
                 headers:{
                     'Content-Type': 'application/json;charset=UTF-8',
                     'Access-Control-Allow-Origin': '*'
