@@ -1,3 +1,3 @@
-/api/_ https://serpapi.com/ 200
+/api/_ https://serpapi.com/:splat 200
 /_ /index.html 200
 /\* /index.html 404
